@@ -1,42 +1,33 @@
+import React from 'react'
+import { AlertCircle, Book, Paperclip } from 'react-feather'
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const Header = () => {
+  return (
+    <header style={{
+      backgroundColor: "white",
+      marginBottom: '16px',
+      boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)"
+    }}>
+      <div style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "16px"
+      }}>
+        <Link to="/">
+          <Paperclip color="black" size={24} />
         </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
+        <Link to="/">
+          <AlertCircle color="black" size={24} />
+        </Link>
+        <Link to="/">
+          <Book color="black" size={24} />
+        </Link>
+      </div>
+    </header>
+  )
 }
 
 export default Header
