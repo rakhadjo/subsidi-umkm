@@ -14,7 +14,7 @@ const AboutUs = () => (
     />
     <img
       src="https://images.dog.ceo/breeds/airedale/n02096051_1669.jpg"
-      alt="woof1"
+      alt="woof2"
     />
   </Layout>
 )
