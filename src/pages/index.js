@@ -1,22 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import IndexLayout from "../components/index_layout"
 import SEO from "../components/seo"
+import Image from "../components/image"
+
 
 const IndexPage = () => (
-  <Layout>
+  <IndexLayout>
     <SEO title="Home" />
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{color: `green`}}>
+      <h1>UMKM</h1>
     </div>
-    <Link to="/about/">About us</Link>
-    <Link to="/form/">Form</Link>
-    <Link to="/stories/">SME Stories</Link>
-  </Layout>
+    <Image />
+    <h2>PELAKSANAAN PROGRAM PEMULIHAN EKONOMI NASIONAL DALAM RANGKA MENDUKUNG KEBIJAKAN KEUANGAN NEGARA UNTUK PENANGANAN PANDEMI CORONA VIRUS DISEASE (COVID-19)</h2>
+    <Link to="/about/">About us </Link>
+    <Link to="/form/">Form </Link>
+    <Link to="/stories/">SME Stories </Link>
+  </IndexLayout>
 )
 
 export default IndexPage
