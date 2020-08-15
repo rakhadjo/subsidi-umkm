@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./styles/layout.css"
@@ -23,7 +22,7 @@ const IndexLayout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main align = "center">{children}</main>
+        <main align="center">{children}</main>
 
         <footer><br />
           © {new Date().getFullYear()}, Built with

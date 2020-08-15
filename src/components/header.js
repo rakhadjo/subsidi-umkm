@@ -19,10 +19,10 @@ const Header = () => {
         <Link to="/">
           <Paperclip color="black" size={24} />
         </Link>
-        <Link to="/">
+        <Link to="/informasi">
           <AlertCircle color="black" size={24} />
         </Link>
-        <Link to="/">
+        <Link to="/kalkulator">
           <Book color="black" size={24} />
         </Link>
       </div>
