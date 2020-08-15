@@ -109,9 +109,6 @@ const QuestionsPage = () => (
       <b>Anggaran Pendapatan dan Belanja Negara</b> (atau disingkat menjadi{" "}
       <b>APBN</b>).
     </p>
-    <p>
-      <i>Mechanism Process Here</i>
-    </p>
     <h4>5. Apa saja sih kriterianya?</h4>
     <p>Debitur harus memenuhi kriteria:</p>
     <ol>
