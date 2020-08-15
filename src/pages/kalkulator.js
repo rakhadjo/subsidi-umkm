@@ -20,6 +20,11 @@ const Calculator = () => {
     <Layout>
       <SEO title="Kalkulator besaran subsidi bunga/margin Usaha Mikro, Kecil, dan Menengah" />
       <h1>Kalkulator</h1>
+      <CalculationResult
+        creditAmount={creditAmount}
+        outstandingDebt={outstandingDebt}
+        daysOfSubsidisation={daysOfSubsidisation}
+      />
       <TextField
         title="Plafon Pembiayaan"
         placeholder="Dalam jumlah rupiah"
@@ -40,11 +45,6 @@ const Calculator = () => {
         error={validate(daysOfSubsidisation)}
         value={daysOfSubsidisation}
         onChange={setDaysOfSubsidisation}
-      />
-      <CalculationResult
-        creditAmount={creditAmount}
-        outstandingDebt={outstandingDebt}
-        daysOfSubsidisation={daysOfSubsidisation}
       />
     </Layout>
   )
