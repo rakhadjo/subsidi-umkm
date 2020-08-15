@@ -1,0 +1,20 @@
+.header {
+  background-color: white;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.content-item {
+  margin: 0 auto;
+}
