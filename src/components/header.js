@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="content">
         <Link to="/" className="content-item">
-          <Paperclip color="black" size={24} />
+          <Home color="black" size={24} />
         </Link>
         <Link to="/informasi" className="content-item">
           <AlertCircle color="black" size={24} transform="rotate(180)" />
