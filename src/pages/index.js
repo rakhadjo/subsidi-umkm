@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import IndexLayout from "../components/index_layout"
+import IndexLayout from "../components/indexLayout"
 import SEO from "../components/seo"
 import Image from "../components/image"
 
@@ -9,7 +9,7 @@ import Image from "../components/image"
 const IndexPage = () => (
   <IndexLayout>
     <SEO title="Home" />
-    <div style={{color: `green`}}>
+    <div style={{ color: `green` }}>
       <h1>UMKM</h1>
     </div>
     <Image />

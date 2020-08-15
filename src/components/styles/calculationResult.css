@@ -1,0 +1,19 @@
+.wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.total {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
