@@ -2,106 +2,117 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const QuestionsPage = () => (
   <Layout>
-    <h1>
+    <SEO title="Informasi" />
+    <h1>Informasi Dasar</h1>
+    <h2>
       1. Apa yang dilakukan pemerintah Indonesia untuk menangani pandemi
       COVID-19 yang mengancam stabilitas perekonomian negara?
-    </h1>
+    </h2>
     <p>
-      Untuk menangani ancaman dari pandemi COVID-19, pemerintah Indonesia
-      melaksanakan Program Pemulihan Ekonomi Nasional (atau disingkat menjadi
-      PEN).
+      Pemerintah Indonesia melaksanakan Program{" "}
+      <b>Pemulihan Ekonomi Nasional</b> (atau disingkat menjadi <b>PEN</b>).
       <br /> <br />
-      Program ini merupakan rangkaian kegiatan yang dirancang oleh pemerintah
-      Indonesia untuk pemulihan perekonomian nasional dengan tujuan mempercepat
-      penanganan pandemi COVID-19.
+      Program ini merupakan rangkaian kegiatan untuk memulihkan perekonomian
+      nasional dengan tujuan mempercepat penanganan pandemi COVID-19.
       <br /> <br />
-      Salah satu kegiatan yang telah dirangkai untuk program PEN adalah
-      pemberian subsidi bunga/margin untuk pembiayaan Usaha Mikro, Kecil dan
-      Menengah (atau disingkat menjadi UMKM) sesuai dengan apa yang tertera di
-      dalam Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020.
+      Salah satu kegiatan dari program PEN adalah{" "}
+      <b>pemberian subsidi bunga/margin</b> untuk pembiayaan{" "}
+      <b>Usaha Mikro, Kecil</b> dan <b>Menengah</b> (disingkat <b>UMKM</b>)
+      sesuai dengan{" "}
+      <b>Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020.</b>
     </p>
-    <h1>
+    <h2>
       2. Yang dimaksud dengan Usaha Mikro, Kecil dan Menengah (UMKM) itu apa ya?
-    </h1>
+    </h2>
     <p>
       Menurut UU Nomor 20 Tahun 2008 tentang Usaha Mikro, Kecil dan Menengah:
     </p>
     <ol>
       <li>
-        Usaha Mikro adalah usaha produktif milik perorangan dan/atau badan usaha
-        perorangan yang:
-        <ol>
+        <b>Usaha Mikro</b> adalah usaha produktif <i>milik perorangan</i>{" "}
+        dan/atau <i>badan usaha perorangan</i> yang:
+        <ol type="a">
           <li>
-            Memiliki kekayaan bersih paling banyak Rp. 50.000.000,00 tidak
-            termasuk tanah dan bangungan tempat usaha; atau
+            Memiliki <i>kekayaan bersih</i> paling banyak{" "}
+            <b>Rp. 50.000.000,00</b> tidak termasuk tanah dan bangungan tempat
+            usaha; atau
           </li>
           <li>
-            Memiliki hasil penjualan tahunan paling banyak Rp. 300.000.000,00.
-          </li>
-        </ol>
-      </li>
-      <li>
-        Usaha Kecil adalah usaha ekonomi produktif yang berdiri sendiri, yang
-        dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan
-        cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik
-        maupun tidak langsung dari Usaha Menengah atau Usaha Besar yang:
-        <ol>
-          <li>
-            Memiliki kekayaan bersih lebih dari Rp. 50.000.000,00 sampai dengan
-            paling banyak Rp. 500.000.000,00 tidak termasuk tanah dan bangunan
-            tempat usaha; atau
-          </li>
-          <li>
-            Memiliki hasil penjualan tahunan lebih dari Rp. 300.000.000,00
-            sampai dengan paling banyak Rp. 2.500.000.000,00.
+            Memiliki <i>hasil penjualan tahunan</i> paling banyak{" "}
+            <b>Rp. 300.000.000,00</b>.
           </li>
         </ol>
       </li>
       <li>
-        Usaha Menengah adalah usaha ekonomi produktif yang berdiri sendiri, yang
-        dilakukan oleh orang perorangan atau badan usaha yang bukan merupakan
-        cabang perusahaan yang dimiliki, dikuasai, atau menjadi bagian baik
-        maupun tidak langsung dari Usaha Kecil atau Usaha Besar yang:
-        <ol>
+        <b>Usaha Kecil</b> adalah usaha ekonomi produktif berdiri sendiri , yang
+        dilakukan orang perorangan atau badan usaha yang{" "}
+        <b>bukan merupakan cabang perusahaan</b> yang dimiliki, dikuasai, atau
+        menjadi bagian baik maupun tidak langsung dari Usaha Menengah atau Usaha
+        Besar yang:
+        <ol type="a">
           <li>
-            Memiliki kekayaan bersih lebih dari Rp. 500.000.000,00 sampai dengan
-            paling banyak Rp. 10.000.000.000,00 tidak termasuk tanah dan
-            bangunan tempat usaha; atau
+            Memiliki <i>kekayaan bersih</i> lebih dari <b>Rp. 50.000.000,00</b>{" "}
+            sampai dengan paling banyak <b>Rp. 500.000.000,00</b> tidak termasuk
+            tanah dan bangunan tempat usaha; atau
           </li>
           <li>
-            Memiliki hasil penjualan tahunan lebih dari Rp. 2.500.000.000,00
-            sampai dengan paling banyak Rp. 50.000.000.000,00.
+            Memiliki <i>hasil penjualan tahunan</i> lebih dari{" "}
+            <b>Rp. 300.000.000,00</b> sampai dengan paling banyak{" "}
+            <b>Rp. 2.500.000.000,00</b>.
+          </li>
+        </ol>
+      </li>
+      <li>
+        <b>Usaha Menengah</b> adalah usaha ekonomi produktif yang berdiri
+        sendiri, yang dilakukan oleh orang perorangan atau badan usaha yang
+        <b>bukan merupakan cabang perusahaan</b> yang dimiliki, dikuasai, atau
+        menjadi bagian baik maupun tidak langsung dari Usaha Kecil atau Usaha
+        Besar yang:
+        <ol type="a">
+          <li>
+            Memiliki <i>kekayaan bersih</i> lebih dari <b>Rp. 500.000.000,00</b>{" "}
+            sampai dengan paling banyak <b>Rp. 10.000.000.000,00</b> tidak
+            termasuk tanah dan bangunan tempat usaha; atau
+          </li>
+          <li>
+            Memiliki <i>hasil penjualan tahunan</i> lebih dari{" "}
+            <b>Rp. 2.500.000.000,00</b> sampai dengan paling banyak{" "}
+            <b>Rp. 50.000.000.000,00</b>.
           </li>
         </ol>
       </li>
     </ol>
-    <h1>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h1>
+    <h2>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h2>
     <p>
-      Subsidi Bunga adalah bagian bunga yang menjadi beban Pemerintah sebesar
-      selisih antara tingkat bunga yang diterima oleh Penyalur Pembiayaan
-      (lembaga perbankan, perusahaan pembiayaan, atau lembaga penyalur program
-      kredit pemerintah) dengan tingkat bunga yang dibebankan kepada Debitur
-      (usaha yang menerima pembiayaan).
+      <b>Subsidi Bunga</b> adalah bagian bunga yang menjadi beban Pemerintah
+      sebesar selisih antara tingkat bunga yang diterima oleh Penyalur
+      Pembiayaan (lembaga perbankan, perusahaan pembiayaan, atau lembaga
+      penyalur program kredit pemerintah) dengan tingkat bunga yang dibebankan
+      kepada Debitur (usaha yang menerima pembiayaan).
       <br /> <br />
-      Subsidi Margin adalah bagian margin yang menjadi beban Pemerintah sebesar
-      selisih antara margin yang diterima oleh Penyalur Pembiayaan dengan margin
-      yang dibebankan kepada Debitur dalam skema pembiayaan syariah.
+      <b>Subsidi Margin</b> adalah bagian margin yang menjadi beban Pemerintah
+      sebesar selisih antara margin yang diterima oleh Penyalur Pembiayaan
+      dengan margin yang dibebankan kepada Debitur dalam skema pembiayaan
+      syariah.
       <br /> <br />
     </p>
-    <h1>
+    <h2>
       4. Ini uangnya dari mana ya? Dan bagaimana uang ini didistribusikan kepada
       kami?
-    </h1>
+    </h2>
     <p>
-      Anggaran Subsidi Bunga/Margin bersumber dari Anggaran Pendapatan dan
-      Belanja Negara (atau disingkat menjadi APBN).
+      Anggaran Subsidi Bunga/Margin berasal dari{" "}
+      <b>Anggaran Pendapatan dan Belanja Negara</b> (atau disingkat menjadi{" "}
+      <b>APBN</b>).
     </p>
-    <h1>5. Apa saja sih kriterianya?</h1>
+    <p>
+      <i>Mechanism Process Here</i>
+    </p>
+    <h2>5. Apa saja sih kriterianya?</h2>
     <p>Debitur harus memenuhi kriteria:</p>
     <ol>
       <li>
@@ -121,23 +132,22 @@ const QuestionsPage = () => (
         Memiliki Nomor Pokok Wajib Pajak (NPWP) atau mendaftar untuk NPWP.
       </li>
     </ol>
-    <h1>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h1>
+    <h2>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h2>
     <p>
-      Subsidi Bunga/Margin diberikan kepada Debitur UMKM dengan plafon (batas
-      nilai maksimum) Pembiayaan paling tinggi Rp. 10.000.000.000,00.
+      Subsidi Bunga/Margin diberikan kepada Debitur UMKM dengan Plafon (batas
+      nilai maksimum) Pembiayaan paling tinggi <b>Rp. 10.000.000.000,00</b>{" "}
+      (sepuluh miliar).
       <br />
       <br />
       Pemberian subsidi ini bertujuan untuk melindungi, mempertahankan, dan
-      meningkatkan ekonomi Debitur dalam menjalankan usahanya sebagai bagian
-      dari upaya mendukung Program PEN.
+      meningkatkan ekonomi Debitur di masa pandemi COVID-19.
       <br />
       <br />
-      Subsidi Bunga/Margin diberikan dalam jangka waktu paling lama 6 bulan.
-      Subsidi ini mulai berlaku sejak tanggal 1 Mei 2020 dan paling lama sampai
-      dengan 31 Desember 2020.
+      Subsidi Bunga/Margin diberikan dalam jangka waktu paling lama 6 bulan, dan
+      hanya akan berlaku dari tanggal 1 Mei 2020 hingga 31 Desember 2020.
       <br />
       <br />
-      Untuk Debitur dari Lembaga Penyalur Program Kredit Pemerintah:
+      Untuk Debitur dari <b>Lembaga Penyalur Program Kredit Pemerintah</b>:
     </p>
     <table>
       <tr>
@@ -157,7 +167,9 @@ const QuestionsPage = () => (
         <td>3% selama 3 bulan pertama, 2% selama 3 bulan seterusnya</td>
       </tr>
     </table>
-    <p>Untuk Debitur dari perbankan atau perusahaan pembiayaan:</p>
+    <p>
+      Untuk Debitur dari <b>Perbankan atau Perusahaan Pembiayaan</b>:
+    </p>
     <table>
       <tr>
         <th>Plafon Kredit/Pembiayaan</th>
@@ -179,21 +191,38 @@ const QuestionsPage = () => (
       <br />
       Perhitungan subsidi bunga/margin dihitung dengan formula sebagai berikut:
     </p>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-    <h1>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+      async
+    ></script>
+    <div align="center">
+      <img
+        src="https://latex.codecogs.com/gif.latex?\frac{Besaran\&space;Subsidi\&space;*&space;Baki\&space;Debet\&space;*&space;Hari\&space;Bunga\&space;atau\&space;Hari\&space;Margin}{360}"
+        title="\frac{Besaran\ Subsidi\ * Baki\ Debet\ * Hari\ Bunga\ atau\ Hari\ Margin}{360}"
+      />
+    </div>
+    <h2>
       7. Wah, bermanfaat sekali! Bagaimana cara mendaftarkan usaha saya untuk
       subsidi ini?
-    </h1>
+    </h2>
     <p>
-      Setelah diundangkannya Peraturan Menteri Keuangan Republik Indonesia Nomor
-      85/PMK.05/2020 yang menggantikan Peraturan Menteri Keuangan Republik
-      Indonesia Nomor 65/PMK.05/2020, kini Debitur tidak perlu lagi melakukan
-      registrasi untuk mendapatkan subsidi bunga. Debitur secara otomatis ikut
-      dalam program ini selama memenuhi persyaratan yang diatur dalam PMK 85.
-      Penyalur Pembiayaan akan memberitahukan Debitur yang berhak menerima
-      subsidi bunga/margin selama Debitur memenuhi kriteria sebagaimana yang
-      dijelaskan di atas.
+      Setelah Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020
+      menggantikan Peraturan Menteri Keuangan Republik Indonesia Nomor
+      65/PMK.05/2020, kini Debitur tidak perlu lagi melakukan registrasi untuk
+      mendapatkan subsidi bunga.
+      <br />
+      <br />
+      Debitur secara otomatis ikut dalam program ini selama memenuhi persyaratan
+      yang diatur dalam PMK 85. Penyalur Pembiayaan akan memberitahukan Debitur
+      yang berhak menerima subsidi bunga/margin selama Debitur memenuhi kriteria
+      sebagaimana yang dijelaskan di atas.
     </p>
+    <div align="center">
+      informasi berdasarkan{" "}
+      <Link to="https://peraturan.bpk.go.id/Home/Download/132790/85_PMK.05_2020.pdf">
+        PMK RI Nomor 85/PMK.05/2020
+      </Link>
+    </div>
   </Layout>
 )
 
