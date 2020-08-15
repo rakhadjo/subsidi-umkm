@@ -28,5 +28,5 @@ export const calculateSubsidyAmount = (creditAmount, outstandingDebt, daysOfSubs
   }
 
   const result = (daysPercentage * outstandingDebt) / 360
-  return `Rp. ${formatCurrency(result)},-`
+  return `Rp. ${result},-`
 }
