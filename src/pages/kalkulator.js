@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TextField from "../components/textField"
+import CalculationResult from "../components/calculationResult"
 
 const Calculator = () => {
   const [creditAmount, setCreditAmount] = useState("")
@@ -18,7 +19,7 @@ const Calculator = () => {
   return (
     <Layout>
       <SEO title="Kalkulator besaran subsidi bunga/margin Usaha Mikro, Kecil, dan Menengah" />
-      <h1>Formulir</h1>
+      <h1>Kalkulator</h1>
       <TextField
         title="Plafon Pembiayaan"
         placeholder="Dalam jumlah rupiah"
@@ -29,14 +30,21 @@ const Calculator = () => {
       <TextField
         title="Baki Debet"
         placeholder="Dalam jumlah rupiah"
+        error={validate(outstandingDebt)}
         value={outstandingDebt}
         onChange={setOutstandingDebt}
       />
       <TextField
         title="Hari Bunga/Margin"
         placeholder="Dalam angka"
+        error={validate(daysOfSubsidisation)}
         value={daysOfSubsidisation}
         onChange={setDaysOfSubsidisation}
+      />
+      <CalculationResult
+        creditAmount={creditAmount}
+        outstandingDebt={outstandingDebt}
+        daysOfSubsidisation={daysOfSubsidisation}
       />
     </Layout>
   )
