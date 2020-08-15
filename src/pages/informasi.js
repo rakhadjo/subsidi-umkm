@@ -7,11 +7,11 @@ import SEO from "../components/seo"
 const QuestionsPage = () => (
   <Layout>
     <SEO title="Informasi" />
-    <h1>Informasi Dasar</h1>
-    <h2>
+    <h1>Informasi</h1>
+    <h4>
       1. Apa yang dilakukan pemerintah Indonesia untuk menangani pandemi
       COVID-19 yang mengancam stabilitas perekonomian negara?
-    </h2>
+    </h4>
     <p>
       Pemerintah Indonesia melaksanakan Program{" "}
       <b>Pemulihan Ekonomi Nasional</b> (atau disingkat menjadi <b>PEN</b>).
@@ -25,9 +25,9 @@ const QuestionsPage = () => (
       sesuai dengan{" "}
       <b>Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020.</b>
     </p>
-    <h2>
+    <h4>
       2. Yang dimaksud dengan Usaha Mikro, Kecil dan Menengah (UMKM) itu apa ya?
-    </h2>
+    </h4>
     <p>
       Menurut UU Nomor 20 Tahun 2008 tentang Usaha Mikro, Kecil dan Menengah:
     </p>
@@ -86,7 +86,7 @@ const QuestionsPage = () => (
         </ol>
       </li>
     </ol>
-    <h2>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h2>
+    <h4>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h4>
     <p>
       <b>Subsidi Bunga</b> adalah bagian bunga yang menjadi beban Pemerintah
       sebesar selisih antara tingkat bunga yang diterima oleh Penyalur
@@ -100,10 +100,10 @@ const QuestionsPage = () => (
       syariah.
       <br /> <br />
     </p>
-    <h2>
+    <h4>
       4. Ini uangnya dari mana ya? Dan bagaimana uang ini didistribusikan kepada
       kami?
-    </h2>
+    </h4>
     <p>
       Anggaran Subsidi Bunga/Margin berasal dari{" "}
       <b>Anggaran Pendapatan dan Belanja Negara</b> (atau disingkat menjadi{" "}
@@ -112,7 +112,7 @@ const QuestionsPage = () => (
     <p>
       <i>Mechanism Process Here</i>
     </p>
-    <h2>5. Apa saja sih kriterianya?</h2>
+    <h4>5. Apa saja sih kriterianya?</h4>
     <p>Debitur harus memenuhi kriteria:</p>
     <ol>
       <li>
@@ -132,7 +132,7 @@ const QuestionsPage = () => (
         Memiliki Nomor Pokok Wajib Pajak (NPWP) atau mendaftar untuk NPWP.
       </li>
     </ol>
-    <h2>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h2>
+    <h4>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h4>
     <p>
       Subsidi Bunga/Margin diberikan kepada Debitur UMKM dengan Plafon (batas
       nilai maksimum) Pembiayaan paling tinggi <b>Rp. 10.000.000.000,00</b>{" "}
@@ -150,39 +150,43 @@ const QuestionsPage = () => (
       Untuk Debitur dari <b>Lembaga Penyalur Program Kredit Pemerintah</b>:
     </p>
     <table>
-      <tr>
-        <th>Plafon Kredit/Pembiayaan</th>
-        <th>Besar subsidi bunga/margin</th>
-      </tr>
-      <tr>
-        <td>≤10 Juta Rupiah</td>
-        <td>≤25% selama 6 bulan</td>
-      </tr>
-      <tr>
-        <td>{">"}10 Juta Rupiah & ≤ 500 Juta Rupiah</td>
-        <td>6% selama 3 bulan pertama, 3% selama 3 bulan seterusnya</td>
-      </tr>
-      <tr>
-        <td>{">"}500 Juta Rupiah & ≤ 10 Miliar Rupiah</td>
-        <td>3% selama 3 bulan pertama, 2% selama 3 bulan seterusnya</td>
-      </tr>
+      <tbody>
+        <tr>
+          <th>Plafon Kredit/Pembiayaan</th>
+          <th>Besar subsidi bunga/margin</th>
+        </tr>
+        <tr>
+          <td>≤10 Juta Rupiah</td>
+          <td>≤25% selama 6 bulan</td>
+        </tr>
+        <tr>
+          <td>{">"}10 Juta Rupiah & ≤ 500 Juta Rupiah</td>
+          <td>6% selama 3 bulan pertama, 3% selama 3 bulan seterusnya</td>
+        </tr>
+        <tr>
+          <td>{">"}500 Juta Rupiah & ≤ 10 Miliar Rupiah</td>
+          <td>3% selama 3 bulan pertama, 2% selama 3 bulan seterusnya</td>
+        </tr>
+      </tbody>
     </table>
     <p>
       Untuk Debitur dari <b>Perbankan atau Perusahaan Pembiayaan</b>:
     </p>
     <table>
-      <tr>
-        <th>Plafon Kredit/Pembiayaan</th>
-        <th>Besar subsidi bunga/margin</th>
-      </tr>
-      <tr>
-        <td>≤500 Juta Rupiah</td>
-        <td>6% selama 3 bulan pertama, 3% selama 3 bulan seterusnya</td>
-      </tr>
-      <tr>
-        <td>{">"}500 Juta Rupiah, ≤10 Miliar Rupiah</td>
-        <td>3% selama 3 bulan pertama, 2% selama 3 bulan seterusnya</td>
-      </tr>
+      <tbody>
+        <tr>
+          <th>Plafon Kredit/Pembiayaan</th>
+          <th>Besar subsidi bunga/margin</th>
+        </tr>
+        <tr>
+          <td>≤500 Juta Rupiah</td>
+          <td>6% selama 3 bulan pertama, 3% selama 3 bulan seterusnya</td>
+        </tr>
+        <tr>
+          <td>{">"}500 Juta Rupiah, ≤10 Miliar Rupiah</td>
+          <td>3% selama 3 bulan pertama, 2% selama 3 bulan seterusnya</td>
+        </tr>
+      </tbody>
     </table>
     <p>
       Besar subsidi yang tertera di dalam tabel-tabel di atas adalah efektif per
@@ -201,10 +205,10 @@ const QuestionsPage = () => (
         title="\frac{Besaran\ Subsidi\ * Baki\ Debet\ * Hari\ Bunga\ atau\ Hari\ Margin}{360}"
       />
     </div>
-    <h2>
+    <h4>
       7. Wah, bermanfaat sekali! Bagaimana cara mendaftarkan usaha saya untuk
       subsidi ini?
-    </h2>
+    </h4>
     <p>
       Setelah Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020
       menggantikan Peraturan Menteri Keuangan Republik Indonesia Nomor

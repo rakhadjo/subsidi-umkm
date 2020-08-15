@@ -1,23 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import IndexLayout from "../components/indexLayout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
-
+import GarudaImage from "../components/GarudaImage"
 
 const IndexPage = () => (
-  <IndexLayout>
+  <Layout align="center">
     <SEO title="Home" />
-    <div style={{ color: `green` }}>
-      <h1>UMKM</h1>
+    <GarudaImage />
+    <div style={{ color: "#27c495" }}>
+      <h1>umkm</h1>
     </div>
-    <Image />
-    <h2>PELAKSANAAN PROGRAM PEMULIHAN EKONOMI NASIONAL DALAM RANGKA MENDUKUNG KEBIJAKAN KEUANGAN NEGARA UNTUK PENANGANAN PANDEMI CORONA VIRUS DISEASE (COVID-19)</h2>
-    <Link to="/about/">About us </Link>
-    <Link to="/form/">Form </Link>
-    <Link to="/stories/">SME Stories </Link>
-  </IndexLayout>
+    <h4>Ringkasan PMK Subsidi Bunga/Margin UMKM Program Pemulihan Ekonomi Nasional Dalam Rangka Mendukung Kebijakan Keuangan Negara Untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19)</h4>
+  </Layout >
 )
 
 export default IndexPage

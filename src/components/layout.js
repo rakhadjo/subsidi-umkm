@@ -1,29 +1,23 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./styles/layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, align }) => {
   return (
     <>
       <Header />
       <div
         style={{
+          position: 'relative',
+          top: 80,
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main align={align || "left"}>{children}</main>
       </div>
     </>
   )
