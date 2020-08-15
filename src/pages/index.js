@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import GarudaImage from "../components/GarudaImage"
+import GarudaImage from "../components/garudaImage"
 
 const IndexPage = () => (
   <Layout align="center">
