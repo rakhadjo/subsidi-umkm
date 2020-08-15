@@ -23,12 +23,10 @@ const IndexLayout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main align = "center">{children}</main>
+        <main align="center">{children}</main>
 
-        <footer><br />
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer>
+          <br />
         </footer>
       </div>
     </>
