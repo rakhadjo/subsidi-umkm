@@ -1,5 +1,5 @@
 import React from 'react'
-import { AlertCircle, Book, Paperclip } from 'react-feather'
+import { AlertCircle, Book, Home } from 'react-feather'
 import { Link } from "gatsby"
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
         margin: "0 auto"
       }}>
         <Link to="/" style={{ margin: "0 auto" }}>
-          <Paperclip color="black" size={24} />
+          <Home color="black" size={24} />
         </Link>
         <Link to="/informasi" style={{ margin: "0 auto" }}>
           <AlertCircle color="black" size={24} transform="rotate(180)" />
