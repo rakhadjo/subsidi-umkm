@@ -156,7 +156,7 @@ const QuestionsPage = () => (
           <th>Besar subsidi bunga/margin</th>
         </tr>
         <tr>
-          <td>≤20 Juta Rupiah</td>
+          <td>≤10 Juta Rupiah</td>
           <td>≤25% selama 6 bulan</td>
         </tr>
         <tr>
