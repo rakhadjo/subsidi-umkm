@@ -1,5 +1,5 @@
 import React from 'react'
-import { AlertCircle, Book, Paperclip } from 'react-feather'
+import { AlertCircle, Book, Home } from 'react-feather'
 import { Link } from "gatsby"
 
 import "./styles/header.css"
