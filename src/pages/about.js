@@ -8,14 +8,34 @@ const AboutUs = () => (
   <Layout>
     <SEO title="About Us" />
     <h1>About Us</h1>
+    <div align = "center">
     <img
-      src="https://images.dog.ceo/breeds/newfoundland/n02111277_5845.jpg"
-      alt="woof1"
+      src="https://www.dts.edu/wp-content/uploads/sites/6/2018/04/Blank-Profile-Picture.jpg"
+      alt="agatha"
+      height="200"
+      width="200"
     />
     <img
-      src="https://images.dog.ceo/breeds/airedale/n02096051_1669.jpg"
-      alt="woof2"
+      src="https://www.dts.edu/wp-content/uploads/sites/6/2018/04/Blank-Profile-Picture.jpg"
+      alt="james"
+      height="200"
+      width="200"
+    />   
+    <img
+      src="https://www.dts.edu/wp-content/uploads/sites/6/2018/04/Blank-Profile-Picture.jpg"
+      alt="rakha"
+      height="200"
+      width="200"
     />
+    <img
+      src="https://www.dts.edu/wp-content/uploads/sites/6/2018/04/Blank-Profile-Picture.jpg"
+      alt="russel"
+      height="200"
+      width="200"
+    />
+    <br />
+    
+    </div>
   </Layout>
 )
 
