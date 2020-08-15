@@ -2,13 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const QuestionsPage = () => (
   <Layout>
-    <h1>
+    <SEO title="Informasi" />
+    <h1>Informasi Dasar</h1>
+    <h2>
       1. Apa yang dilakukan pemerintah Indonesia untuk menangani pandemi
       COVID-19 yang mengancam stabilitas perekonomian negara?
-    </h1>
+    </h2>
     <p>
       Pemerintah Indonesia melaksanakan Program{" "}
       <b>Pemulihan Ekonomi Nasional</b> (atau disingkat menjadi <b>PEN</b>).
@@ -22,9 +25,9 @@ const QuestionsPage = () => (
       sesuai dengan{" "}
       <b>Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020.</b>
     </p>
-    <h1>
+    <h2>
       2. Yang dimaksud dengan Usaha Mikro, Kecil dan Menengah (UMKM) itu apa ya?
-    </h1>
+    </h2>
     <p>
       Menurut UU Nomor 20 Tahun 2008 tentang Usaha Mikro, Kecil dan Menengah:
     </p>
@@ -83,7 +86,7 @@ const QuestionsPage = () => (
         </ol>
       </li>
     </ol>
-    <h1>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h1>
+    <h2>3. Bagaimana dengan subsidi bunga/margin? Maksudnya apa?</h2>
     <p>
       <b>Subsidi Bunga</b> adalah bagian bunga yang menjadi beban Pemerintah
       sebesar selisih antara tingkat bunga yang diterima oleh Penyalur
@@ -97,10 +100,10 @@ const QuestionsPage = () => (
       syariah.
       <br /> <br />
     </p>
-    <h1>
+    <h2>
       4. Ini uangnya dari mana ya? Dan bagaimana uang ini didistribusikan kepada
       kami?
-    </h1>
+    </h2>
     <p>
       Anggaran Subsidi Bunga/Margin berasal dari{" "}
       <b>Anggaran Pendapatan dan Belanja Negara</b> (atau disingkat menjadi{" "}
@@ -109,7 +112,7 @@ const QuestionsPage = () => (
     <p>
       <i>Mechanism Process Here</i>
     </p>
-    <h1>5. Apa saja sih kriterianya?</h1>
+    <h2>5. Apa saja sih kriterianya?</h2>
     <p>Debitur harus memenuhi kriteria:</p>
     <ol>
       <li>
@@ -129,7 +132,7 @@ const QuestionsPage = () => (
         Memiliki Nomor Pokok Wajib Pajak (NPWP) atau mendaftar untuk NPWP.
       </li>
     </ol>
-    <h1>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h1>
+    <h2>6. Sebesar apa pembiayaan yang bisa diberikan kepada usaha saya?</h2>
     <p>
       Subsidi Bunga/Margin diberikan kepada Debitur UMKM dengan Plafon (batas
       nilai maksimum) Pembiayaan paling tinggi <b>Rp. 10.000.000.000,00</b>{" "}
@@ -192,10 +195,16 @@ const QuestionsPage = () => (
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
       async
     ></script>
-    <h1>
+    <div align="center">
+      <img
+        src="https://latex.codecogs.com/gif.latex?\frac{Besaran\&space;Subsidi\&space;*&space;Baki\&space;Debet\&space;*&space;Hari\&space;Bunga\&space;atau\&space;Hari\&space;Margin}{360}"
+        title="\frac{Besaran\ Subsidi\ * Baki\ Debet\ * Hari\ Bunga\ atau\ Hari\ Margin}{360}"
+      />
+    </div>
+    <h2>
       7. Wah, bermanfaat sekali! Bagaimana cara mendaftarkan usaha saya untuk
       subsidi ini?
-    </h1>
+    </h2>
     <p>
       Setelah Peraturan Menteri Keuangan Republik Indonesia Nomor 85/PMK.05/2020
       menggantikan Peraturan Menteri Keuangan Republik Indonesia Nomor
@@ -209,7 +218,7 @@ const QuestionsPage = () => (
       sebagaimana yang dijelaskan di atas.
     </p>
     <div align="center">
-        informasi berdasarkan{" "}
+      informasi berdasarkan{" "}
       <Link to="https://peraturan.bpk.go.id/Home/Download/132790/85_PMK.05_2020.pdf">
         PMK RI Nomor 85/PMK.05/2020
       </Link>
