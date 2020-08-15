@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -207,6 +208,12 @@ const QuestionsPage = () => (
       yang berhak menerima subsidi bunga/margin selama Debitur memenuhi kriteria
       sebagaimana yang dijelaskan di atas.
     </p>
+    <div align="center">
+        informasi berdasarkan{" "}
+      <Link to="https://peraturan.bpk.go.id/Home/Download/132790/85_PMK.05_2020.pdf">
+        PMK RI Nomor 85/PMK.05/2020
+      </Link>
+    </div>
   </Layout>
 )
 
