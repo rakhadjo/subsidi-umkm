@@ -7,7 +7,7 @@ import GarudaImage from "../components/garudaImage"
 
 const IndexPage = () => (
   <Layout align="center">
-    <SEO title="Home" />
+    <SEO title="Beranda" />
     <GarudaImage />
     <div style={{ color: "#27c495" }}>
       <h1>umkm</h1>

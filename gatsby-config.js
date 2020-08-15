@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Project Crispy-Subsidy`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Subsidi Bunga/Margin UMKM`,
+    description: `Ringkasan PMK Subsidi Bunga/Margin UMKM Program Pemulihan Ekonomi Nasional Dalam Rangka Mendukung Kebijakan Keuangan Negara Untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19)`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -34,7 +34,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
-    },`gatsby-plugin-styled-components`,
+    }, `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
