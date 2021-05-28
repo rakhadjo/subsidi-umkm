@@ -4,6 +4,7 @@ module.exports = {
     description: `Ringkasan PMK Subsidi Bunga/Margin UMKM Program Pemulihan Ekonomi Nasional Dalam Rangka Mendukung Kebijakan Keuangan Negara Untuk Penanganan Pandemi Corona Virus Disease 2019 (COVID-19)`,
     author: `@gatsbyjs`,
   },
+  pathPrefix: "/subsidi-umkm",
   plugins: [
     {
       resolve: `gatsby-transformer-remark`,
